@@ -579,6 +579,10 @@ export default function ChatApp() {
         </main>
       </div>
 
+      <footer className="border-t border-slate-200 bg-white px-4 py-1.5 text-center text-[11px] text-slate-400">
+        © 2026 DigiStart. Built with Claude Code
+      </footer>
+
       {promptModalOpen && (
         <PromptModal
           prompts={prompts}
